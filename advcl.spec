@@ -7,8 +7,6 @@ Version:	0.7.0
 Release:	2
 License:	GPL
 Group:		Applications/Console
-Group(de):	Applikationen/Konsole
-Group(pl):	Aplikacje/Konsola
 Source0:	http://spyjurenet.com/linuxrc.org/projects/acl/%{rname}-%{version}.tar.gz
 Patch0:		%{name}-config.patch
 URL:		http://spyjurenet.com/linuxrc.org/projects/acl/
