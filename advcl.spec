@@ -35,7 +35,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir}}
 install acl.pl   $RPM_BUILD_ROOT%{_bindir}/acl
 install acl.conf $RPM_BUILD_ROOT%{_sysconfdir}
 
-gzip -9nf README NEWS TODO 
+gzip -9nf README NEWS TODO
 
 %clean
 rm -rf $RPM_BUILD_ROOT
