@@ -7,8 +7,8 @@ Version:	0.7.0
 Release:	3
 License:	GPL
 Group:		Applications/Console
-Source0:	http://spyjurenet.com/linuxrc.org/projects/acl/%{rname}-%{version}.tar.gz
-# Source0-md5:	9c0138f5b8953bcfb1cb51ec2ffbd199
+Source0:	http://linuxrc.net/linuxrc.org/projects/acl/%{rname}-%{version}.tar.gz
+# Source0-md5:	978e4da7eec020aea1efff9c2ab953f8
 Patch0:		%{name}-config.patch
 URL:		http://spyjurenet.com/linuxrc.org/projects/acl/
 BuildRequires:	perl-modules
