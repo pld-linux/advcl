@@ -3,7 +3,7 @@ Summary:	Advanced Color Logs
 Summary(pl):	Advanced Color Logs - program koloruj±cy logi
 Name:		advcl
 Version:	0.7.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Console
 Group(de):	Applikationen/Konsole
@@ -12,6 +12,7 @@ Source0:	http://spyjurenet.com/linuxrc.org/projects/acl/%{rname}-%{version}.tar.
 Patch0:		%{name}-config.patch
 URL:		http://spyjurenet.com/linuxrc.org/projects/acl/
 Requires:	perl
+Requires:	perl-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
