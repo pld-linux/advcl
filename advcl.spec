@@ -33,8 +33,8 @@ bardziej rozbudowane mo¿liwo¶ci parsowania.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir}}
 
-install acl.pl   $RPM_BUILD_ROOT%{_bindir}/acl
-install acl.conf $RPM_BUILD_ROOT%{_sysconfdir}
+install acl.pl		$RPM_BUILD_ROOT%{_bindir}/acl
+install acl.conf	$RPM_BUILD_ROOT%{_sysconfdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
