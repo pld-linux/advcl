@@ -1,3 +1,4 @@
+%include	/usr/lib/rpm/macros.perl
 %define	rname	acl
 Summary:	Advanced Color Logs
 Summary(pl):	Advanced Color Logs - program koloruj±cy logi
@@ -11,8 +12,7 @@ Group(pl):	Aplikacje/Konsola
 Source0:	http://spyjurenet.com/linuxrc.org/projects/acl/%{rname}-%{version}.tar.gz
 Patch0:		%{name}-config.patch
 URL:		http://spyjurenet.com/linuxrc.org/projects/acl/
-Requires:	perl
-Requires:	perl-modules
+BuildRequires:	perl-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
