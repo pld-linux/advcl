@@ -4,7 +4,7 @@ Summary:	Advanced Color Logs
 Summary(pl):	Advanced Color Logs - program koloruj±cy logi
 Name:		advcl
 Version:	0.7.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Console
 Source0:	http://linuxrc.net/linuxrc.org/projects/acl/%{rname}-%{version}.tar.gz
