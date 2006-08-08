@@ -27,7 +27,7 @@ bardziej rozbudowane mo¿liwo¶ci parsowania.
 
 %prep
 %setup -q -n %{rname}-%{version}
-%patch -p0
+%patch0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT
