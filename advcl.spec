@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	rname	acl
 Summary:	Advanced Color Logs
-Summary(pl):	Advanced Color Logs - program koloruj±cy logi
+Summary(pl.UTF-8):   Advanced Color Logs - program kolorujÄ…cy logi
 Name:		advcl
 Version:	0.7.0
 Release:	4
@@ -20,10 +20,10 @@ acl is a perl script that colorizes system logs. Inspired by
 ColorLogs, acl (Advanced Color Logs) has advanced parsing
 capabilities.
 
-%description -l pl
-acl to skrypt napisany w perlu, koloruj±cy logi systemowe.
+%description -l pl.UTF-8
+acl to skrypt napisany w perlu, kolorujÄ…cy logi systemowe.
 Zainspirowany programem ColorLogs, acl (Advanced Color Logs) posiada
-bardziej rozbudowane mo¿liwo¶ci parsowania.
+bardziej rozbudowane moÅ¼liwoÅ›ci parsowania.
 
 %prep
 %setup -q -n %{rname}-%{version}
