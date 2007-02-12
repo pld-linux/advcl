@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	rname	acl
 Summary:	Advanced Color Logs
-Summary(pl.UTF-8):   Advanced Color Logs - program kolorujący logi
+Summary(pl.UTF-8):	Advanced Color Logs - program kolorujący logi
 Name:		advcl
 Version:	0.7.0
 Release:	4
